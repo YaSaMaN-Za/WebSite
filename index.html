@@ -46,44 +46,101 @@
                         </span>
                         WebSite
                     </a>
-                    <nav class="nav-main ms-2">
+
+                    <nav class="nav-main ms-2" aria-label="Main">
                         <div class="dropdown megamenu js-hover-dropdown">
-                            <button class="nav-main__link" type="button" date-bs-toggle="dropdown"
+                            <button class="nav-main__link" type="button" data-bs-toggle="dropdown"
                                 data-bs-auto-close="outside" aria-expanded="false">
                                 <i class="bi bi-grid-3x3-gap" aria-hidden="true"></i>
                                 Categories
-                                <i class="bi bi-chevron-down" style="font-size: .7rem;" aria-hidden="true"></i>
+                                <i class="bi bi-chevron-down" style="font-size: 0.7rem" aria-hidden="true"></i>
                             </button>
+
                             <div class="dropdown-menu megamenu__panel mt-2">
                                 <div class="row g-4">
                                     <div class="col-lg-2 col-md-4 col-6">
                                         <h2 class="megamenu__group-title h6">
-                                            <i class="bi bi-bag"></i>
-                                            Electronics
+                                            <i class="bi bi-cpu"></i>Electronics
                                         </h2>
                                         <ul class="megamenu__links">
-                                            <li><a href="shop.html">Smartphone</a></li>
-                                            <li><a href="shop.html">Laptops</a></li>
-                                            <li><a href="shop.html">Tablet</a></li>
-                                            <li><a href="shop.html">Audio</a></li>
-                                            <li><a href="shop.html">Camera</a></li>
+                                            <li>
+                                                <a
+                                                    href="shop.html?category=electronics&amp;sub=Smartphones">Smartphones</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop.html?category=electronics&amp;sub=Laptops">Laptops</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop.html?category=electronics&amp;sub=Tablets">Tablets</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop.html?category=electronics&amp;sub=Audio">Audio</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop.html?category=electronics&amp;sub=Cameras">Cameras</a>
+                                            </li>
                                         </ul>
                                     </div>
-
-<div class="col-lg-2 col-md-4 col-6">
+                                    <div class="col-lg-2 col-md-4 col-6">
                                         <h2 class="megamenu__group-title h6">
-                                            <i class="bi bi-bag"></i>
-                                            Fashion
+                                            <i class="bi bi-bag"></i>Fashion
                                         </h2>
                                         <ul class="megamenu__links">
-                                            <li><a href="shop.html">men</a></li>
-                                            <li><a href="shop.html">WOMAN</a></li>
-                                            <li><a href="shop.html">Shoes</a></li>
-                                            <li><a href="shop.html">Accessories</a></li>
-                                            <li><a href="shop.html">Jewrly</a></li>
+                                            <li><a href="shop.html?category=fashion">Men</a></li>
+                                            <li><a href="shop.html?category=fashion">Women</a></li>
+                                            <li>
+                                                <a href="shop.html?category=fashion&amp;sub=Shoes">Shoes</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop.html?category=fashion&amp;sub=Outerwear">Outerwear</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop.html?category=accessories">Accessories</a>
+                                            </li>
                                         </ul>
                                     </div>
-
+                                    <div class="col-lg-2 col-md-4 col-6">
+                                        <h2 class="megamenu__group-title h6">
+                                            <i class="bi bi-house-door"></i>Home
+                                        </h2>
+                                        <ul class="megamenu__links">
+                                            <li>
+                                                <a href="shop.html?category=home&amp;sub=Furniture">Furniture</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop.html?category=home&amp;sub=Kitchen">Kitchen</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop.html?category=home&amp;sub=Lighting">Lighting</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop.html?category=home&amp;sub=Decoration">Decoration</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-2 col-md-4 col-6">
+                                        <h2 class="megamenu__group-title h6">
+                                            <i class="bi bi-controller"></i>Gaming
+                                        </h2>
+                                        <ul class="megamenu__links">
+                                            <li>
+                                                <a href="shop.html?category=gaming">Controllers</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop.html?category=gaming">Headsets</a>
+                                            </li>
+                                            <li><a href="shop.html?category=sports">Sports</a></li>
+                                            <li><a href="shop.html?category=beauty">Beauty</a></li>
+                                        </ul>
+                                    </div>
+<div class="col-lg-4">
+    <a href="shop.html" class="megamenu__promo">
+        <img src="#" alt="promo" loading="lazy">
+        <span class="badg-brand align-self-start mb-2">Ends Sunday</span>
+        <span class="h4 mb-1 text-white">Up to 40% off</span>
+        <span class="small" style="color: aquamarine;">......</span>
+    </a>
+</div>
                                 </div>
                             </div>
                         </div>
