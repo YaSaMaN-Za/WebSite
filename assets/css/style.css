@@ -226,6 +226,7 @@ p:last-child {
   line-height: 1.65;
   color: var(--muted);
   max-width: 60ch;
+  
 }
 
 .text-muted-2 {
