@@ -299,7 +299,7 @@ hr {
 ::selection {
   background: var(--primary);
   color: #fff;
-  
+
 }
 
 :focus-visible {
@@ -320,6 +320,7 @@ hr {
   font-weight: 600;
   transition: var(--dur) var(--ease);
 }
+
 
 .skip-link:focus {
   top: 1rem;
