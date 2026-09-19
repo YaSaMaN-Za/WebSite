@@ -299,6 +299,7 @@ hr {
 ::selection {
   background: var(--primary);
   color: #fff;
+  
 }
 
 :focus-visible {
