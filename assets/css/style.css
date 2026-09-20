@@ -1774,6 +1774,7 @@ textarea.form-control {
   flex: none;
 }
 
+
 .search__input {
   flex: 1;
   border: 0;
@@ -1865,12 +1866,13 @@ textarea.form-control {
   color: var(--muted);
 }
 
+
 .autocomplete__footer {
   border-top: 1px solid var(--border);
   margin-top: 0.0375rem;
   padding-top: 0.5rem;
 
-  
+
 }
 
 .offcanvas {
